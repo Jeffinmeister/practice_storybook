@@ -1,6 +1,9 @@
 {
   "name": "storybooks",
   "version": "1.0.0",
+  "engines": {
+    "node": "12.16.3"
+  },
   "description": "Creating a private public google auth books libraries",
   "main": "app.js",
   "scripts": {
