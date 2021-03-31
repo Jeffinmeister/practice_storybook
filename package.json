@@ -4,7 +4,7 @@
   "description": "Creating a private public google auth books libraries",
   "main": "app.js",
   "scripts": {
-    "start": " node app.js",
+    "start": "node app.js",
     "dev": "cross-env NODE_ENV=developement nodemon app"
   },
   "author": "",
