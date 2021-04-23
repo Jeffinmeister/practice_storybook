@@ -8,7 +8,8 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "dev": "cross-env NODE_ENV=developement nodemon app"
+    "dev": "cross-env NODE_ENV=developement nodemon app",
+    "build": "webpack"
   },
   "author": "",
   "license": "ISC",
@@ -26,10 +27,12 @@
     "morgan": "^1.10.0",
     "passport": "^0.4.1",
     "passport-google-oauth20": "^2.0.0",
-    "passport-local": "^1.0.0"
+    "passport-local": "^1.0.0",
+    "webpack-node-externals": "^2.5.2"
   },
   "devDependencies": {
     "cross-env": "^7.0.3",
-    "nodemon": "^2.0.7"
+    "nodemon": "^2.0.7",
+    "webpack": "^3.8.1"
   }
 }
